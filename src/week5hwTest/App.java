@@ -6,18 +6,18 @@ public class App {
 		// TODO Auto-generated method stub
 		
 		Logger starMessage = new AsteriskLogger();
-		starMessage.Log("Luke I am your Father");
+		starMessage.Log("Hello");
 		System.out.println();
-		starMessage.Error("Luke I am your Father");
+		starMessage.Error("Hello");
 		
 		
 		System.out.println();
 		System.out.println();
 		
 		Logger spacedMessage = new SpacedLogger();
-		spacedMessage.Log("Luke I am your Father");
+		spacedMessage.Log("Hello");
 		System.out.println();
-		spacedMessage.Error("Luke I am your Father");
+		spacedMessage.Error("Hello");
 
 	}
 
